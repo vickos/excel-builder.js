@@ -19,7 +19,7 @@ var onmessage = function(event) {
     postMessage({
         base64: !!event.data.base64
     });
-    zip.generateAsync({
+    zip.generate({
         base64: !!event.data.base64
     }).then(function (data) {
         postMessage({
