@@ -31076,6 +31076,10 @@ _.extend(sharedStrings.prototype, {
      * @return int
      */
     addString: function (string) {
+        //remove unicode
+        if (string)
+            string = string.replace(/\u000b/g, "");
+
         this.strings[string] = this.stringArray.length;
         this.stringArray[this.stringArray.length] = string;
         return this.strings[string];

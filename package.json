@@ -1,6 +1,6 @@
 {
-  "name": "excel-builder",
-  "version": "2.0.3",
+  "name": "client-excel-builder",
+  "version": "1.0.3",
   "description": "An easy way of building Excel files with javascript",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephenliberty/excel-builder.js.git"
+    "url": "https://github.com/vickos/excel-builder.js"
   },
   "keywords": [
     "excel",
@@ -16,12 +16,10 @@
     "xlsx",
     "spreadsheet"
   ],
-  "author": "Stephen Liberty",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/stephenliberty/excel-builder.js/issues"
+    "url": "https://github.com/vickos/excel-builder.js"
   },
-  "homepage": "http://excelbuilderjs.com/",
   "devDependencies": {
     "browserify": "^12.0.1",
     "browserify-shim": "^3.8.11",
